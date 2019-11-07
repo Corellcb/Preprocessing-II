@@ -1,1 +1,15 @@
 // Mixins in here
+.flex(@just, @align) {
+    display: flex;
+    justify-content: @just;
+    align-items: @align;
+}
+
+.buttons(@btn-color, @btn-back) {
+    color: @btn-color;
+    background: @btn-back;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4% 0;
+    border-radius: 10px;
+}
