@@ -72,6 +72,10 @@ header {
     img {
       border-radius: 10px;
     }
+
+    @media @mobile {
+      width: 100%;
+    }
   }
 
   .content-pick {
@@ -83,6 +87,14 @@ header {
     .destination {
       width: 30%;
       margin-bottom: 30px;
+    }
+
+    @media @mobile {
+      flex-direction: column;
+
+      .destination {
+        width: 100%;
+      }
     }
   }
 }// home
